@@ -15,7 +15,7 @@ class Person
         this.age = age;
      }
       public String getFullName() {
-        return firstName + " " + lastName;
+        return firstName + "" + lastName;
     }
 }
 public class Practical1
